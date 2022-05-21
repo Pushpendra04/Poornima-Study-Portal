@@ -1,0 +1,61 @@
+body
+{
+	background-image: url("library.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+pre
+{
+	width: 75%;
+	height: 560px;
+	margin-left: 6%;
+	margin-top: 70px;
+}
+
+#Video
+{
+  position: fixed;
+  width: 75%; 
+  height: 560px;
+}
+
+#heading
+{
+	margin-top: -10px;
+	font-size: 30px;
+}
+
+.content
+{
+  position: fixed;
+  margin-top: -45px;
+  margin-left: 130px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 1063px;
+  height: 10%;
+}
+
+#button
+{
+  position: fixed;
+  margin-top: 320px;
+  margin-left: 315px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 320px;
+  height: 10%;
+  font-size: 30px;
+}
+
+.Hav:hover,
+.Hav:focus
+{
+  cursor: pointer;
+  text-decoration-line: underline; 
+}
+
+
+

@@ -1,0 +1,159 @@
+body
+{
+  background-image: url("B1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar
+{
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a 
+{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover 
+{
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active 
+{
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content 
+{
+  padding: 16px;
+}
+
+.sticky 
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content 
+{
+  padding-top: 60px;
+}
+
+#Logo
+{
+  width:100px;
+  margin: -10px;
+  height: 100px;
+  margin-top: -8px;
+  margin-left: 15px;
+}
+
+.Welcome
+{  
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 180px;
+  height: 50px;
+  margin-left: 689px;
+  color: yellow; 
+}
+
+.pointer
+{
+cursor: pointer;
+}
+
+#Slider
+{
+height: 500px;
+width: 100%;
+}
+
+.Profile
+{  
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  margin-right: 0px;
+  margin-left: 0px;  
+}
+
+.bottom:hover
+{
+  color: yellow;
+  opacity: 100%;
+  text-decoration-line: underline;
+  text-decoration-style: double;  
+}
+
+#Images
+{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+#Logos
+{
+  height: 90px;
+  width: 90px;
+  margin-left: -60px;
+}
+
+.Call{
+ float: right;
+ height: 50px;
+ width: 32%;
+ margin-right: 5%;
+ margin-top: -20px;
+ font-size: 20px;
+}
+
+#Sub{
+ float: right;
+ height: 50px;
+ width: 10%;
+ margin-right: -20%;
+ margin-top: 50px; 
+ font-size: 30px;
+ color: red;
+ background-color: yellow;
+}
+
+#Map
+{
+  margin-top: -210px;
+}
+
+
+
+
+
+
+
+
+
+
+
